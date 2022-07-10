@@ -148,7 +148,7 @@ public class ImageCollection extends JFrame implements ActionListener {
 					String restApiKey = "0d81a3134f5920b7381b8e515b973fe0";  // 개인 rest-api 키 입력
 
 					try {
-						String text = URLEncoder.encode("고양이", "UTF-8");
+						String text = URLEncoder.encode(keyword, "UTF-8");
 						String postParams = "src_lang=kr&target_lang=en&query=" + text;  // 파라미터
 						String apiURL = "https://dapi.kakao.com/v2/search/image?" + postParams;
 						URL url = new URL(apiURL);
