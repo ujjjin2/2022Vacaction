@@ -6,6 +6,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/HurYuJin/Downloads/json.jar"/>
+	<classpathentry kind="lib" path="libs/json.jar"/>
+	<classpathentry kind="lib" path="libs/jsoup-1.15.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
